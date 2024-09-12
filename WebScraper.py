@@ -399,13 +399,15 @@ def last_30_days():
 
 def about():
     about_execute()
+    '''
     tratar_data_lifetime('Lifetime.csv')
     lifetime_remove()
     tratar_subs('Lifetime.csv')
-    '''tratar_lifetime_int('Lifetime.csv')'''
+    tratar_lifetime_int('Lifetime.csv')
     tratar_views('Lifetime.csv')
     tratar_videos('Lifetime.csv')
     formatacao_lifetime('Lifetime.csv')
+    '''
     print("Lifetime finalizado")
 
 # Inicializar main
